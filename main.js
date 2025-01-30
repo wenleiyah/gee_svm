@@ -72,7 +72,7 @@ var generateSamples = function(image, nWater, nNonWater) {
   });
 };
 
-var samplePoints = generateSamples(waterMask, 800, 800);
+var samplePoints = generateSamples(waterMask, 800, 800); //(1200,1200) Experiment with more sampling points
 print('Sample Points:', samplePoints);
 
 /***** Define Landsat-8 dataset for specific date *****/
